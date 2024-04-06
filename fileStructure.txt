@@ -1,0 +1,20 @@
+/backend
+    /venv                # Virtual environment folder
+    /app                 # Application package
+        __init__.py      # Initializes your Flask application
+        /api             # API routes
+            __init__.py
+            views.py     # API endpoints
+        /models          # Database models
+            __init__.py
+            models.py    # SQLAlchemy models
+        /services        # Business logic
+            __init__.py
+            service.py   # Business logic and data manipulation
+    /migrations         # Database migrations
+    /instance           # Instance folder for configuration that shouldn't be version-controlled
+        config.py       # Configuration file
+    requirements.txt     # Python package dependencies
+    .env                 # Environment variables
+    config.py            # Configuration file
+    run.py               # Entry point to run the Flask application

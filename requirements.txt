@@ -1,0 +1,8 @@
+Axios
+cors
+requests
+rhino3dm
+
+# for structure
+numpy
+scipy
